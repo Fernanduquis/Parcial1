@@ -46,8 +46,10 @@ namespace parcial
             alquiler.Libro = textBoxCodigo.Text;
             alquiler.Entrada = dateTimePickerEntrada.Value;
             alquiler.Salida = dateTimePickerEntrada.Value;
+
             alquileres.Add(alquiler);
             Guardar();
+
 
         }
     }
